@@ -3,6 +3,10 @@ body {
 	font-family: 'Droid Serif', serif;
 }
 
+div.container {
+	max-width: 800px;
+}
+
 .chart div {
   font: 12px sans-serif;
   background-color: #2f2f2f;
@@ -30,9 +34,12 @@ body {
 
 h1 {
 	font-size: 2.3em;
-	font-weight: 800;
+	font-weight: 200;
 	width: 400px;
 	margin: 0;
+	padding: 10px;
+	letter-spacing: .01em;
+	padding-bottom: 0px;
 	}
 
 	
@@ -78,6 +85,10 @@ p.salary-output {
 	height: 2.5em;
 	width: 2.5em;
 	outline: none;
+	background-image: url('/img.png');
+	background-repeat: no-repeat;
+	background-position-x: 10px;
+	background-position-y: 10px; 
 }
 
 .ui-widget-header {
@@ -128,6 +139,11 @@ div.chart{
 
 .income-text {
 	text-transform: uppercase;
+}
+
+.source {
+	text-align: right;
+	font-size: 10px;
 	
 }
 
