@@ -16,18 +16,23 @@ body {
 	opacity: .8;
 }
 
-.slide-contain{
-	width: 760px;
-	margin: 0px 10px 24px 10px;
+.slide-contain, .slide-bg{
+	width: 750px;
+	margin: 20px 2px 24px 3px;
 	height: 5px;
 }
 
+.slide-bg {
+	height: 22px;
+	width: 790px;
+	background-color: #545454;
+}
+
 h1 {
-	font-size: 1.3em;
+	font-size: 2.3em;
 	font-weight: 800;
-	width: 300px;
+	width: 400px;
 	margin: 0;
-	text-transform: uppercase;
 	}
 
 	
@@ -62,7 +67,6 @@ p.salary-output {
 	border-bottom-left-radius: 50px;
 	border-top-right-radius: 50px;
 	border-top-left-radius: 50px;
-	
 }
 
 .ui-slider-horizontal .ui-slider-handle
@@ -73,22 +77,30 @@ p.salary-output {
 .ui-slider .ui-slider-handle {
 	height: 2.5em;
 	width: 2.5em;
+	outline: none;
+}
+
+.ui-widget-header {
+	background: #020202;
 }
 
 .ui-widget-content {
-	
 	height: 10px;
-	background: #252525;
+	background: #242424;
+	border: 6px solid #545454;
 }
 
 .salary, span.bold{
 	border:0;
 	color:#000; 
 	font-weight:bold; 
-	font-size: 3em;
+	font-size: 2em;
 	text-align: right;
 }
 
+.salary {
+	margin-left: 220px;
+}
 
 div.chart, div.price , div.cityname{
 	float: left;
@@ -118,19 +130,4 @@ div.chart{
 	text-transform: uppercase;
 	
 }
-
-/*
-.axis text {
-  font: 10px sans-serif;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-*/
-
-
 
