@@ -19,15 +19,12 @@
 }
 
 h1 {
+	font-family: 'Droid Serif', serif;
 	font-size: 1.3em;
 	font-family: helvetica; 
-	font-weight: 100;
+	font-weight: 400;
 	}
 	
-h2 {
-	font-family: helvetica; 
-	font-weight: 800;
-}
 	
 .bar{
 	-webkit-transition: width 1.5s; 
@@ -57,6 +54,12 @@ h2 {
 	top: -.5em;	
 }
 
+.salary {
+	border:0;
+	color:#f6931f; 
+	font-weight:bold; 
+	font-size: 2em;
+}
 
 /*
 .axis text {
