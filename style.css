@@ -71,6 +71,7 @@ p.salary-output {
 	text-align: right;
 }
 
+
 div.chart, div.price , div.cityname{
 	float: left;
 }
@@ -91,8 +92,8 @@ div.chart{
 }
 
 .cityprice {
-	
 	width: 140px;
+	font-size: .8em;
 }
 
 .income-text {
