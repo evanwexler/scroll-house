@@ -1,9 +1,14 @@
+
+body {
+	font-family: 'Droid Serif', serif;
+}
+
 .chart div {
   font: 12px sans-serif;
   background-color: #2f2f2f;
   text-align: left;
   padding: 3px;
-  margin: 1px;
+  margin:1px;
   color: white;
 }
 
@@ -19,10 +24,8 @@
 }
 
 h1 {
-	font-family: 'Droid Serif', serif;
 	font-size: 1.3em;
-	font-family: helvetica; 
-	font-weight: 400;
+	font-weight: 800;
 	}
 	
 	
@@ -56,10 +59,44 @@ h1 {
 
 .salary {
 	border:0;
-	color:#f6931f; 
+	color:#000; 
 	font-weight:bold; 
-	font-size: 2em;
+	font-size: 3em;
+	text-align: right;
+	
 }
+
+div.chart, div.price , div.cityname{
+	float: left;
+}
+
+div.cityname, div.price{
+	line-height:2.35em;
+	text-align: right;
+}
+
+
+div.cityname {
+	font-weight: 100; 
+	
+}
+
+imput.salary {
+	 border:0; 
+	 color:#f6931f; 
+	 font-weight:bold; 
+	 font-size: 2em;
+}
+
+div.chart{
+	margin-left:20px;
+}
+
+.cityprice {
+	
+	width: 140px;
+}
+
 
 /*
 .axis text {
@@ -73,4 +110,6 @@ h1 {
   shape-rendering: crispEdges;
 }
 */
+
+
 
