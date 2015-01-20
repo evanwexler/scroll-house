@@ -26,6 +26,9 @@ body {
 h1 {
 	font-size: 1.3em;
 	font-weight: 800;
+	width: 300px;
+	margin: 0;
+	text-transform: uppercase;
 	}
 	
 	
@@ -37,6 +40,9 @@ h1 {
     transition-timing-function: cubic-bezier(3);
 }
 
+p.salary-output {
+	margin: 0;
+}
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
 	background: none; 
