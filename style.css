@@ -4,7 +4,7 @@ body {
 }
 
 div.container {
-	max-width: 800px;
+	max-width: 780px;
 }
 
 .chart div {
@@ -110,7 +110,7 @@ p.salary-output {
 }
 
 .salary {
-	margin-left: 220px;
+	margin-left: 200px;
 }
 
 div.chart, div.price , div.cityname{
