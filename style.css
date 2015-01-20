@@ -141,9 +141,12 @@ div.chart{
 	text-transform: uppercase;
 }
 
-.source {
+.source , .note {
 	text-align: right;
 	font-size: 11px;
-	
+}
+
+.note {
+	font-weight: 800;
 }
 
