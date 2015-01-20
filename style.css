@@ -69,7 +69,6 @@ p.salary-output {
 	font-weight:bold; 
 	font-size: 3em;
 	text-align: right;
-	
 }
 
 div.chart, div.price , div.cityname{
@@ -96,6 +95,10 @@ div.chart{
 	width: 140px;
 }
 
+.income-text {
+	text-transform: uppercase;
+	
+}
 
 /*
 .axis text {
