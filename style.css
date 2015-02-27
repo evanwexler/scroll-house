@@ -5,6 +5,7 @@ body {
 
 div.container {
 	max-width: 780px;
+        margin: 0 auto;
 }
 
 .chart div {
